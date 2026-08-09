@@ -1,0 +1,9 @@
+# Exclude build artifacts
+# Normalize line endings
+
+*.map linguist-generated
+
+*.tsx linguist-detectable
+
+docs/** linguist-vendored
+package-lock.json linguist-generated
